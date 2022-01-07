@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="104129" started-at="2022-01-07T18:23:42 IST" finished-at="2022-01-07T18:25:26 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="104129" started-at="2022-01-07T18:23:42 IST" finished-at="2022-01-07T18:25:26 IST">
+      <class name="com.policybazaar.regression.CarInsurance">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.policybazaar.regression.CarInsurance@10dba097]" name="setDriver" is-config="true" duration-ms="6137" started-at="2022-01-07T18:24:34 IST" finished-at="2022-01-07T18:24:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="searchForCarInsurance(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.policybazaar.regression.CarInsurance@10dba097]" name="searchForCarInsurance" duration-ms="16314" started-at="2022-01-07T18:24:40 IST" data-provider="Car-Details" finished-at="2022-01-07T18:24:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHENNAI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TN03]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHEVROLET]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BEAT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Petrol]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.2 LT (1199 cc)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Brand New Car]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sam@gail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[987654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForCarInsurance -->
+        <test-method status="PASS" signature="searchForCarInsurance(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.policybazaar.regression.CarInsurance@10dba097]" name="searchForCarInsurance" duration-ms="15303" started-at="2022-01-07T18:24:56 IST" data-provider="Car-Details" finished-at="2022-01-07T18:25:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DELHI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DL10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FORD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ECOSPORT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Petrol]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.5 Petrol Titanium  (1497 cc)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Brand New Car]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8765432109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForCarInsurance -->
+        <test-method status="PASS" signature="searchForCarInsurance(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.policybazaar.regression.CarInsurance@10dba097]" name="searchForCarInsurance" duration-ms="13654" started-at="2022-01-07T18:25:12 IST" data-provider="Car-Details" finished-at="2022-01-07T18:25:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PUNE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MH12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JEEP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WRANGLER]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Petrol]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Rubicon (1998 cc)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Brand New Car]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[joseph@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForCarInsurance -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.policybazaar.regression.CarInsurance@10dba097]" name="quitBrowser" is-config="true" duration-ms="738" started-at="2022-01-07T18:25:25 IST" finished-at="2022-01-07T18:25:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.policybazaar.regression.CarInsurance -->
+      <class name="com.policybazaar.extentreports.ExtentReport">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.policybazaar.extentreports.ExtentReport@4524411f]" name="startReport" is-config="true" duration-ms="0" started-at="2022-01-07T18:23:42 IST" finished-at="2022-01-07T18:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.policybazaar.extentreports.ExtentReport@4524411f]" name="flushReport" is-config="true" duration-ms="65" started-at="2022-01-07T18:25:26 IST" finished-at="2022-01-07T18:25:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.policybazaar.extentreports.ExtentReport -->
+      <class name="com.policybazaar.regression.TravelInsurance">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.policybazaar.regression.TravelInsurance@401e7803]" name="setDriver" is-config="true" duration-ms="5810" started-at="2022-01-07T18:23:42 IST" finished-at="2022-01-07T18:23:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="searchForTravelInsurance(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.policybazaar.regression.TravelInsurance@401e7803]" name="searchForTravelInsurance" duration-ms="13536" started-at="2022-01-07T18:23:48 IST" data-provider="Travel-Details" finished-at="2022-01-07T18:24:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[United Kingdom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1/25/22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2/1/22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9874561230]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTravelInsurance -->
+        <test-method status="PASS" signature="searchForTravelInsurance(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.policybazaar.regression.TravelInsurance@401e7803]" name="searchForTravelInsurance" duration-ms="19318" started-at="2022-01-07T18:24:01 IST" data-provider="Travel-Details" finished-at="2022-01-07T18:24:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Germany]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/8/22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6/3/22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[96543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTravelInsurance -->
+        <test-method status="PASS" signature="searchForTravelInsurance(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.policybazaar.regression.TravelInsurance@401e7803]" name="searchForTravelInsurance" duration-ms="6447" started-at="2022-01-07T18:24:21 IST" data-provider="Travel-Details" finished-at="2022-01-07T18:24:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[France]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3/22/22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4/7/22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9638527413]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTravelInsurance -->
+        <test-method status="PASS" signature="searchForTravelInsurance(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.policybazaar.regression.TravelInsurance@401e7803]" name="searchForTravelInsurance" duration-ms="5512" started-at="2022-01-07T18:24:27 IST" data-provider="Travel-Details" finished-at="2022-01-07T18:24:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Netherlands]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1/2/22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3/26/22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7439517890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTravelInsurance -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.policybazaar.regression.TravelInsurance@401e7803]" name="quitBrowser" is-config="true" duration-ms="1274" started-at="2022-01-07T18:24:33 IST" finished-at="2022-01-07T18:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.policybazaar.regression.TravelInsurance -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+  <suite name="SmokeSuite" duration-ms="103107" started-at="2022-01-07T18:21:58 IST" finished-at="2022-01-07T18:23:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="103107" started-at="2022-01-07T18:21:58 IST" finished-at="2022-01-07T18:23:42 IST">
+      <class name="com.policybazaar.smoke.HealthInsurance">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.policybazaar.smoke.HealthInsurance@4a87761d]" name="setDriver" is-config="true" duration-ms="5875" started-at="2022-01-07T18:23:35 IST" finished-at="2022-01-07T18:23:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="gethealthInsuranceList()[pri:0, instance:com.policybazaar.smoke.HealthInsurance@4a87761d]" name="gethealthInsuranceList" duration-ms="345" started-at="2022-01-07T18:23:41 IST" finished-at="2022-01-07T18:23:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gethealthInsuranceList -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.policybazaar.smoke.HealthInsurance@4a87761d]" name="closeBrowser" is-config="true" duration-ms="660" started-at="2022-01-07T18:23:41 IST" finished-at="2022-01-07T18:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.policybazaar.smoke.HealthInsurance -->
+      <class name="com.policybazaar.extentreports.ExtentReport">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.policybazaar.extentreports.ExtentReport@77f99a05]" name="startReport" is-config="true" duration-ms="291" started-at="2022-01-07T18:21:58 IST" finished-at="2022-01-07T18:21:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.policybazaar.extentreports.ExtentReport@77f99a05]" name="flushReport" is-config="true" duration-ms="432" started-at="2022-01-07T18:23:42 IST" finished-at="2022-01-07T18:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.policybazaar.extentreports.ExtentReport -->
+      <class name="com.policybazaar.smoke.TravelInsurance">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="setDriver" is-config="true" duration-ms="10508" started-at="2022-01-07T18:21:58 IST" finished-at="2022-01-07T18:22:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="searchForTravelInsurance()[pri:0, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="searchForTravelInsurance" duration-ms="1450" started-at="2022-01-07T18:22:09 IST" finished-at="2022-01-07T18:22:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTravelInsurance -->
+        <test-method status="PASS" signature="selectDestination()[pri:1, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="selectDestination" duration-ms="1500" started-at="2022-01-07T18:22:10 IST" finished-at="2022-01-07T18:22:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestination -->
+        <test-method status="PASS" signature="selectDates()[pri:2, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="selectDates" duration-ms="1971" started-at="2022-01-07T18:22:12 IST" finished-at="2022-01-07T18:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDates -->
+        <test-method status="PASS" signature="selectNoOfPeople()[pri:3, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="selectNoOfPeople" duration-ms="529" started-at="2022-01-07T18:22:14 IST" finished-at="2022-01-07T18:22:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNoOfPeople -->
+        <test-method status="PASS" signature="selectMedicalCondition()[pri:4, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="selectMedicalCondition" duration-ms="174" started-at="2022-01-07T18:22:14 IST" finished-at="2022-01-07T18:22:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMedicalCondition -->
+        <test-method status="PASS" signature="enterMobileNumber()[pri:5, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="enterMobileNumber" duration-ms="965" started-at="2022-01-07T18:22:15 IST" finished-at="2022-01-07T18:22:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMobileNumber -->
+        <test-method status="PASS" signature="sortByLowToHigh()[pri:6, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="sortByLowToHigh" duration-ms="4788" started-at="2022-01-07T18:22:16 IST" finished-at="2022-01-07T18:22:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByLowToHigh -->
+        <test-method status="PASS" signature="displayTopThree()[pri:7, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="displayTopThree" duration-ms="382" started-at="2022-01-07T18:22:20 IST" finished-at="2022-01-07T18:22:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayTopThree -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.policybazaar.smoke.TravelInsurance@69b0fd6f]" name="quitBrowser" is-config="true" duration-ms="860" started-at="2022-01-07T18:22:21 IST" finished-at="2022-01-07T18:22:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.policybazaar.smoke.TravelInsurance -->
+      <class name="com.policybazaar.smoke.CarInsurance">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="setDriver" is-config="true" duration-ms="5619" started-at="2022-01-07T18:22:22 IST" finished-at="2022-01-07T18:22:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="searchForCarInsurance()[pri:0, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="searchForCarInsurance" duration-ms="984" started-at="2022-01-07T18:22:27 IST" finished-at="2022-01-07T18:22:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForCarInsurance -->
+        <test-method status="PASS" signature="carNumber()[pri:1, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="carNumber" duration-ms="2755" started-at="2022-01-07T18:22:28 IST" finished-at="2022-01-07T18:22:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carNumber -->
+        <test-method status="PASS" signature="fuel()[pri:2, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fuel" duration-ms="1344" started-at="2022-01-07T18:22:31 IST" finished-at="2022-01-07T18:22:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fuel -->
+        <test-method status="PASS" signature="fillDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fillDetails" duration-ms="33037" started-at="2022-01-07T18:22:32 IST" data-provider="details" finished-at="2022-01-07T18:23:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="fillDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fillDetails" duration-ms="5251" started-at="2022-01-07T18:23:05 IST" data-provider="details" finished-at="2022-01-07T18:23:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6342897621]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="fillDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fillDetails" duration-ms="4581" started-at="2022-01-07T18:23:11 IST" data-provider="details" finished-at="2022-01-07T18:23:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8765432108]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="fillDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fillDetails" duration-ms="4532" started-at="2022-01-07T18:23:15 IST" data-provider="details" finished-at="2022-01-07T18:23:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7543210890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="fillDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fillDetails" duration-ms="4550" started-at="2022-01-07T18:23:20 IST" data-provider="details" finished-at="2022-01-07T18:23:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harry@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="fillDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fillDetails" duration-ms="4530" started-at="2022-01-07T18:23:24 IST" data-provider="details" finished-at="2022-01-07T18:23:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Daniel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[daniel@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="fillDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="fillDetails" duration-ms="4550" started-at="2022-01-07T18:23:29 IST" data-provider="details" finished-at="2022-01-07T18:23:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[brian@outlook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.policybazaar.smoke.CarInsurance@757942a1]" name="closeBrowser" is-config="true" duration-ms="1281" started-at="2022-01-07T18:23:33 IST" finished-at="2022-01-07T18:23:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.policybazaar.smoke.CarInsurance -->
+    </test> <!-- Test -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>

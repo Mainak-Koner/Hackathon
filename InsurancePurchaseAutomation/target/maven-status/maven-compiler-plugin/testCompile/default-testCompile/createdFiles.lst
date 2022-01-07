@@ -1,0 +1,13 @@
+com\policybazaar\smoke\ExcelData.class
+com\policybazaar\pageobjectmodel\InsurancePlansPage.class
+com\policybazaar\smoke\CarInsurance.class
+com\policybazaar\configurations\DriverSetup.class
+com\policybazaar\regression\ExcelData.class
+com\policybazaar\pageobjectmodel\CarInsuranceEntryPage.class
+com\policybazaar\pageobjectmodel\HomePage.class
+com\policybazaar\regression\TravelInsurance.class
+com\policybazaar\smoke\HealthInsurance.class
+com\policybazaar\pageobjectmodel\TravelInsuranceEntryPage.class
+com\policybazaar\regression\CarInsurance.class
+com\policybazaar\extentreports\ExtentReport.class
+com\policybazaar\smoke\TravelInsurance.class

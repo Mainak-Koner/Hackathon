@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jan 07 17:57:28 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>107 seconds (107021 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.enterMobileNumber()'><b>enterMobileNumber</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>1</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fillDetails()'><b>fillDetails</b><br>Test class: com.policybazaar.smoke.CarInsurance<br>Parameters: Joseph, , 7543210890</td>
+<td></td>
+<td>4</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fillDetails()'><b>fillDetails</b><br>Test class: com.policybazaar.smoke.CarInsurance<br>Parameters: Brian, brian@outlook.com, 1234567890</td>
+<td></td>
+<td>4</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.searchForTravelInsurance()'><b>searchForTravelInsurance</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>1</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fillDetails()'><b>fillDetails</b><br>Test class: com.policybazaar.smoke.CarInsurance<br>Parameters: Sam, abcd@gmail.com, 9876543210</td>
+<td></td>
+<td>33</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.carNumber()'><b>carNumber</b><br>Test class: com.policybazaar.smoke.CarInsurance</td>
+<td></td>
+<td>3</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.sortByLowToHigh()'><b>sortByLowToHigh</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>4</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.displayTopThree()'><b>displayTopThree</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>0</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.selectMedicalCondition()'><b>selectMedicalCondition</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>0</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fillDetails()'><b>fillDetails</b><br>Test class: com.policybazaar.smoke.CarInsurance<br>Parameters: Harry, harry@gmail.com, 7890</td>
+<td></td>
+<td>4</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.selectDestination()'><b>selectDestination</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>1</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fuel()'><b>fuel</b><br>Test class: com.policybazaar.smoke.CarInsurance</td>
+<td></td>
+<td>1</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.selectDates()'><b>selectDates</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>1</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.TravelInsurance.selectNoOfPeople()'><b>selectNoOfPeople</b><br>Test class: com.policybazaar.smoke.TravelInsurance</td>
+<td></td>
+<td>0</td>
+<td>com.policybazaar.smoke.TravelInsurance@50de0926</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fillDetails()'><b>fillDetails</b><br>Test class: com.policybazaar.smoke.CarInsurance<br>Parameters: John, abcd, 8765432108</td>
+<td></td>
+<td>4</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.searchForCarInsurance()'><b>searchForCarInsurance</b><br>Test class: com.policybazaar.smoke.CarInsurance</td>
+<td></td>
+<td>0</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fillDetails()'><b>fillDetails</b><br>Test class: com.policybazaar.smoke.CarInsurance<br>Parameters: Daniel, daniel@gmail.com, </td>
+<td></td>
+<td>4</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.CarInsurance.fillDetails()'><b>fillDetails</b><br>Test class: com.policybazaar.smoke.CarInsurance<br>Parameters: , xyz@gmail.com, 6342897621</td>
+<td></td>
+<td>5</td>
+<td>com.policybazaar.smoke.CarInsurance@2473b9ce</td></tr>
+<tr>
+<td title='com.policybazaar.smoke.HealthInsurance.gethealthInsuranceList()'><b>gethealthInsuranceList</b><br>Test class: com.policybazaar.smoke.HealthInsurance</td>
+<td></td>
+<td>0</td>
+<td>com.policybazaar.smoke.HealthInsurance@60438a68</td></tr>
+</table><p>
+</body>
+</html>
